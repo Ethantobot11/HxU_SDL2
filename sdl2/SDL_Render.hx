@@ -4,6 +4,7 @@ import cxx.ConstCharPtr;
 import cxx.num.*;
 import cxx.Ptr;
 import cxx.VoidPtr;
+import cxx.*;
 
 @:cppInclude("SDL2/SDL_render.h") @:include("SDL2/SDL_render.h")
 
