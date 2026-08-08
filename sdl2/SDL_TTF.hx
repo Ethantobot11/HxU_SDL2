@@ -1,5 +1,10 @@
 package sdl2;
 
+import cxx.num.*;
+import cxx.Ptr;
+import cxx.VoidPtr;
+import cxx.Ptr;
+
 @:include("SDL2/SDL_ttf.h")
 @:native("TTF_Font")
 extern typedef TTF_Font = Int;
