@@ -1,5 +1,7 @@
 package sdl2;
 
+import cxx.num.*;
+
 @:cppInclude("SDL2/SDL_video.h") @:include("SDL2/SDL_video.h")
 
 @:cppInclude("SDL2/SDL_video.h")
