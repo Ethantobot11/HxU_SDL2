@@ -4,6 +4,7 @@ import cxx.num.*;
 import cxx.Ptr;
 import cxx.VoidPtr;
 import cxx.Ptr;
+import cxx.*;
 
 @:cppInclude("SDL2/SDL_Pixels.h")
 @:include("SDL2/SDL_Pixels.h")
