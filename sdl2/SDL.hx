@@ -6,6 +6,7 @@ import cxx.VoidPtr;
 import cxx.Ptr;
 import cxx.ConstCharPtr;
 import cxx.Char;
+import cxx.*;
 
 @:cppInclude("SDL2/SDL.h")
 @:include("SDL2/SDL.h")
