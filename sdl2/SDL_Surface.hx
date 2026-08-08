@@ -1,5 +1,10 @@
 package sdl2;
 
+import cxx.num.*;
+import cxx.Ptr;
+import cxx.VoidPtr;
+import cxx.Ptr;
+
 @:cppInclude("SDL2/SDL_surface.h") @:include("SDL2/SDL_surface.h")
 
 @:native("SDL_BlitMap")
