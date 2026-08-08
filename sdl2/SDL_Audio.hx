@@ -1,6 +1,8 @@
 package sdl2;
 
 import cxx.num.*;
+import cxx.Ptr;
+import cxx.VoidPtr;
 
 @:native("SDL_AudioFormat")
 @:include("SDL2/SDL_audio.h")
