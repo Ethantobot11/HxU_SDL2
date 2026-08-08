@@ -1,5 +1,7 @@
 package sdl2;
 
+import cxx.ConstCharPtr;
+
 @:cppInclude("SDL2/SDL_render.h") @:include("SDL2/SDL_render.h")
 
 @:cppInclude("SDL2/SDL_render.h")
