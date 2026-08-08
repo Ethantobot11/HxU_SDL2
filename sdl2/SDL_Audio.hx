@@ -1,5 +1,7 @@
 package sdl2;
 
+import cxx.num.*;
+
 @:native("SDL_AudioFormat")
 @:include("SDL2/SDL_audio.h")
 extern typedef SDL_AudioFormat = UInt16;
