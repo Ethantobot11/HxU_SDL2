@@ -1,5 +1,11 @@
 package sdl2;
 
+
+import cxx.num.*;
+import cxx.Ptr;
+import cxx.VoidPtr;
+import cxx.Ptr;
+
 @:cppInclude("SDL2/SDL_touch.h") @:include("SDL2/SDL_touch.h")
 @:cppInclude("SDL2/SDL_touch.h")
 @:include("SDL2/SDL_touch.h")
