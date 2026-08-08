@@ -4,6 +4,7 @@ import cxx.num.*;
 import cxx.Ptr;
 import cxx.VoidPtr;
 import cxx.Ptr;
+import cxx.*;
 
 @:include("SDL2/SDL_ttf.h")
 @:native("TTF_Font")
