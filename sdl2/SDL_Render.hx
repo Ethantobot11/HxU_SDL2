@@ -1,6 +1,9 @@
 package sdl2;
 
 import cxx.ConstCharPtr;
+import cxx.num.*;
+import cxx.Ptr;
+import cxx.VoidPtr;
 
 @:cppInclude("SDL2/SDL_render.h") @:include("SDL2/SDL_render.h")
 
