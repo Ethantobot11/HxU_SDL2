@@ -5,6 +5,8 @@ import cxx.Ptr;
 import cxx.VoidPtr;
 import cxx.Ptr;
 import cxx.*;
+import sdl2.SDL_Pixels.SDL_Color;
+import sdl2.SDL_Surface;
 
 @:include("SDL2/SDL_ttf.h")
 @:native("TTF_Font")
