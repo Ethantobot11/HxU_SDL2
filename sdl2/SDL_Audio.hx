@@ -21,7 +21,7 @@ extern typedef SDL_AudioCallback = (data:VoidPtr, stream:UInt8, len:Int) -> Void
 
 @:native("SDL_AudioSpec")
 @:include("SDL2/SDL_audio.h")
-@:valueType
+@:structAccess
 extern class SDL_AudioSpec {
 	public var freq:Int;
 	public var format:SDL_AudioFormat;
