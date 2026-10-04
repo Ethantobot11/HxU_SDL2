@@ -1,17 +1,11 @@
 package sdl2;
 
-import cxx.num.*;
-import cxx.Ptr;
-import cxx.VoidPtr;
-import cxx.Ptr;
-import cxx.*;
-
 @:cppInclude("SDL2/SDL_Pixels.h")
 @:include("SDL2/SDL_Pixels.h")
 
 @:native("SDL_Color")
 @:include("SDL2/SDL_Pixels.h")
-@:valueType
+@:structAccess
 extern class SDL_Color {
     @:include("SDL2/SDL_Pixels.h")
     extern public var r:UInt8;
@@ -28,7 +22,7 @@ extern class SDL_Color {
 
 @:native("SDL_Palette")
 @:include("SDL2/SDL_Pixels.h")
-@:valueType
+@:structAccess
 extern class SDL_Palette {
     @:include("SDL2/SDL_Pixels.h")
     extern public var ncolors:Int;
@@ -45,7 +39,7 @@ extern class SDL_Palette {
 
 @:native("SDL_PixelFormat")
 @:include("SDL2/SDL_Pixels.h")
-@:valueType
+@:structAccess
 extern class SDL_PixelFormat {
     @:include("SDL2/SDL_Pixels.h")
     public var format:UInt32;
