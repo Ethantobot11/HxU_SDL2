@@ -1,11 +1,5 @@
 package sdl2;
 
-import cxx.num.*;
-import cxx.Ptr;
-import cxx.VoidPtr;
-import cxx.Ptr;
-import cxx.*;
-
 @:cppInclude("SDL2/SDL_timer.h") @:include("SDL2/SDL_timer.h")
 
 @:cppInclude("SDL2/SDL_timer.h") 
