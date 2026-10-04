@@ -1,15 +1,9 @@
 package sdl2;
 
-import cxx.num.*;
-import cxx.Ptr;
-import cxx.VoidPtr;
-import cxx.Ptr;
-import cxx.*;
-
 @:cppInclude("SDL2/SDL_surface.h") @:include("SDL2/SDL_surface.h")
 
 @:native("SDL_BlitMap")
-@:valueType
+@:structAccess
 extern class SDL_BlitMap {
     @:haxe.warning("-WExternWithExpr")
     public function new() {}
@@ -17,7 +11,7 @@ extern class SDL_BlitMap {
 
 @:include("SDL2/SDL_surface.h")
 @:native("SDL_Surface")
-@:valueType
+@:structAccess
 extern class SDL_Surface {
     @:include("SDL2/SDL_surface.h")
 	public var flags:UInt32;
